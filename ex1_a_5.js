@@ -1,30 +1,26 @@
 /*******************************************************************/
 /* EXERCICE 1 */
 
-// let message;
-// message = "hello";
+// let message = "hello";
 // alert(message);
 
 /*******************************************************************/
 /* EXERCICE 2 */
 
-// let partOne;
-// let partTwo;
-// partOne="Hello";
-// partTwo="World";
+// let partOne = "Hello";
+// let partTwo = "World";
 // alert(partOne + " " + partTwo);
 
 /*******************************************************************/
 /* EXERCICE 3 */
 
-// let firstname;
-// let age;
-// let city;
-// firstname = "Quentin";
-// age = 32;
-// city = "Caen"
-// alert("Je m'appelle " + firstname + ", j'ai " + age + " et j'habite à " + city + ".");
-// alert(`Je m'appelle ${firstname}, j'ai ${age} et j'habite à ${city}`); // utilisation de backstick pour pas que ça pose probleme avec mes apostrophe dans la string.
+// let firstname = "Quentin";
+// let age = 32;
+// let city = "Caen"
+// let message_v1 = "Je m'appelle " + firstname + ", j'ai " + age + " ans et j'habite à " + city + ".";
+// let message_v2 = `Je m'appelle ${firstname}, j'ai ${age} ans et j'habite à ${city}` // utilisation de backsticks
+// alert(message_v1);
+// alert(message_v2);
 
 /*******************************************************************/
 /* EXERCICE 4 */
