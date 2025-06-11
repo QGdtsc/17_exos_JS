@@ -1,32 +1,33 @@
 /*******************************************************************/
 /* EXERCICE 6 */
 
+// Pour déclarer les variables on peut aussi utiliser var au lieu de let
 
 // let secret;
 let secret = "mot de passe";
 // alert("Le type de la variable secret est : " + typeof(secret))
-alert(`Le type de la variable secret est : ${typeof(secret)}`);
+alert(`Le type de la variable secret est : ${typeof secret}`);
 
 secret = 777;
-alert(`Le type de la variable secret est : ${typeof(secret)}`);
+alert(`Le type de la variable secret est : ${typeof secret}`);
 // Le type de la variable s'est adapté à la nouvelle valeur de la variable.
 
-let nom = "BOND";
+let chaineNom = "BOND";
 let booleanValue = true;
 let nombre = 85;
 const PI = 3.14;
 let dateValue = new Date();
 
 alert(
-    `La variable nom est de type ${typeof(nom)}` + 
-    `\nLa variable booleanValue est de type ${typeof(booleanValue)}` + 
-    `\nLa variable nombre est de type ${typeof(nombre)}` + 
-    `\nLa constance PI est de type ${typeof(PI)}` + 
-    `\nLa variable dateValue est de type ${typeof(dateValue)}`
+    `La variable nom est de type ${typeof chaineNom}` + 
+    `\nLa variable booleanValue est de type ${typeof booleanValue}` + 
+    `\nLa variable nombre est de type ${typeof nombre}` + 
+    `\nLa constance PI est de type ${typeof PI}` + 
+    `\nLa variable dateValue est de type ${typeof dateValue}`
 );
 
 let varIndefinie;
-alert(`La variable varIndefinie est de type ${typeof(varIndefinie)}`);
+alert(`La variable varIndefinie est de type ${typeof varIndefinie}`);
 
 
 const INCORRUPTIBLE = "Président";
