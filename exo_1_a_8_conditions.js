@@ -198,12 +198,12 @@
 
 validation = window.confirm("En cliquant sur OK, je confirme.")
 validation ? console.log("L'utilisateur a cliqué sur ok") : console.log("L'utilisateur n'a pas validé") // avec ternaire
-if (validation == true) // avec if else
-{
-    answer = "L'utilisateur a cliqué sur OK."
-}
-else
-{
-    answer = "L'utilisateur n'a pas validé."
-}
-console.log(answer)
+// if (validation == true) // avec if else
+// {
+//     answer = "L'utilisateur a cliqué sur OK."
+// }
+// else
+// {
+//     answer = "L'utilisateur n'a pas validé."
+// }
+// console.log(answer)
