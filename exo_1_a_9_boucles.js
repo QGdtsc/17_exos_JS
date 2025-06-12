@@ -26,9 +26,9 @@
 // // console.log(nb1 + nb2) // pour test
 // while ((nb1 + nb2) < 2025) {
 //     console.log(nb1 + nb2)
-//     nb2 += (nb1 + nb2)      
-//     nb2 = nb2 + (nb1 + nb2)    
-//     console.log(`Valeur de nb2 a la fin de l'itération: ${nb2}`);
+//     nb2 += (nb1 + nb2)
+//     // nb2 = nb2 + (nb1 + nb2)
+//     console.log(`Valeur de nb2 recalculée qui sera testée à la prochaine itération : ${nb2}`);
 // }
 
 /*******************************************************************/
